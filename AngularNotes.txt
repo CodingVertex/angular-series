@@ -1,0 +1,41 @@
+Angular Notes
+---------------------------
+2nd video - https://www.youtube.com/watch?v=3G-ROonUBhQ
+---------------------------
+
+Component: component is a building block of a web application that controls a part of the user intergface.
+
+made up of HTML, CSS, TypeScript, Spect.ts(Unit test script)
+
+Consisit of typescript class
+
+---------------------------
+3rd video (Data binding) - 
+---------------------------
+Data binding in Angular is a fundamental concept that allows you to establish a connection between the data in your application and the user interface (UI).
+
+Two types of data binding
+
+#1 ONE WAY BINDING
+Interpolation (One-Way Binding)   
+{{}}
+flow: JavaScript -> HTML
+
+Property Binding    
+[poperty]="varibale"
+
+javascript -> HTML
+
+Event Binding    
+(click)="function()"
+
+HTML-> Javascript
+
+click
+hover
+keypress
+
+#2 TWO-WAY BINDING ([ngModel])
+
+HTML -> javascript
+HTML <- javascript

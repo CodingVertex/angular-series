@@ -1,0 +1,13 @@
+<h1>Data binding in angular</h1>
+<hr>
+<h2>#1 One Way Data Binding</h2>
+<h3>1. Interpolation {{interpolationData}}</h3>
+<h3 [style.background]="property" >2. Property binding </h3>
+<button (click)="eventBindingFunction()" style="padding: 10px 20px; font-size: 20px;"> Click </button>
+
+<hr>
+<h2>#2 Two Way Data Binding</h2>
+
+<input type="text" [(ngModel)]="twoWay">
+
+<h3>Two way binding : {{twoWay}}</h3>
